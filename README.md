@@ -1,9 +1,10 @@
 # alfred-ffmpeg-convert
-Alfred Workflow to Convert a video to MP4 with hinted streaming for web.  Requires ffmpeg to be installed
+Alfred Workflow to Convert a video to MP4 with hinted streaming for web.  Reduces file size significantly without much video reduction.
 
 ####################
 ### Dependencies ###
 ####################
+
 Alfred - 3.6.1+
 ffmpeg (recomend installing with Homebrew: https://brew.sh/)
 
@@ -22,4 +23,4 @@ Open Alfred and type "encode", space, then the name of the file to convert.  I w
 Example:
 encode example.mov
 
-Big moveis will take a while to encode so it will let you know when it starts and when it finishes with big type on the screen and a sound.
+Big movies will take a while to encode so it will let you know when it starts and when it finishes with big type on the screen and a sound.
